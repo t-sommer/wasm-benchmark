@@ -1,0 +1,4 @@
+# Cargo build output (host, guests, alternate CARGO_TARGET_DIR)
+/target/
+/target-guest/
+/target-host/

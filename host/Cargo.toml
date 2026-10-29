@@ -1,0 +1,12 @@
+[package]
+name = "host"
+version.workspace = true
+edition.workspace = true
+
+[[bench]]
+name = "convert"
+harness = false
+
+[dependencies]
+wasmtime = { version = "29.0.0", default-features = true, features = ["component-model"] }
+criterion = "0.5.1"

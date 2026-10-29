@@ -1,0 +1,10 @@
+[package]
+name = "guest-core"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libm = "0.2"

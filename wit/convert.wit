@@ -1,0 +1,6 @@
+package wasm-benchmark:convert;
+
+/// Guest exports the conversion function; host calls it through the component model.
+world convert {
+    export convert: func(values: list<u32>) -> list<f64>;
+}

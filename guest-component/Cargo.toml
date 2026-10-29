@@ -1,0 +1,14 @@
+[package]
+name = "guest-component"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wit-bindgen = "0.41.0"
+libm = "0.2"
+
+[package.metadata.component]
+package = "wasm-benchmark:convert"
